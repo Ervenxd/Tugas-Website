@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Social Club</title>
+    <link rel="stylesheet" href="homefix2.css">
+    <script src="https://kit.fontawesome.com/311752fd3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="logorbgc.png" width="auto" height="50" class="logo">
+            <ul>
+                <li><img src="icon/bell.svg"></li>
+                <li><img src="icon/mail.png"></li>
+                <li><img src="icon/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="icon/search.svg">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="img/profile-1.jpeg">
+            </div>
+
+        </div>
+ <!------------ settings-menu --------------- -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="img/profile-1.jpeg">
+                    <div>
+                        <p>El Rubio</p>
+                       <a href="profilfix.html">Your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="icon/chat-dots.svg">
+                    <div>
+                        <p>Give Feedback</p>
+                       <a href="#">Help us to improve</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="icon/settings.svg" class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="icon/graph-up-arrow.svg" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="icon/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="icon/graph-up-arrow.svg" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="icon/logout.png" class="settings-icon">
+                    <a href="index.html">Logout <img src="icon/graph-up-arrow.svg" width="10px"></a>
+                </div>
+
+            </div>
+           
+        </div>
+
+    </nav>
+
+    <div class="container">
+    <!------------left-sidebar--------------- -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="icon/mail.png"> Latest News</a>
+                <a href="#"><img src="icon/friends.png"> Friends</a>
+                <a href="#"><img src="icon/users-group.png"> Group</a>
+                <a href="#"><img src="icon/shopping-cart.png"> Marketplace</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortut-links">
+                <P>Your Shortcuts</P>
+                <a href="#"><img src="img/mitsu.png"> Mitsubishi Fan Club</a>
+                <a href="#"><img src="img/bmw.jpeg"> BMW Fan Club</a>
+                <a href="#"><img src="img/p5.png"> F1 Fan Club</a>
+                <a href="#"><img src="img/moto.png"> MotoGP Fan Club</a>
+            </div>
+        </div>
+        <!------------maincontent--------------- -->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="img/profile-1.jpeg">
+                    <p>Your Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="img/s2.jpg">
+                    <p>Pavel</p>
+                </div>
+                <div class="story story3">
+                    <img src="img/f1.png">
+                    <p>Sebastian Vettel</p>
+                </div>
+                <div class="story story4">
+                    <img src="img/s4.jpg">
+                    <p>Franklin Clinton</p>
+                </div>
+                <div class="story story5">
+                    <img src="img/r34.jpg">
+                    <p>Robert Jefferson</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="img/profile-1.jpeg">
+                    <div>
+                        <p>El Rubio</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="icon/video.png"> Live Video</a>
+                        <a href="#"><img src="icon/image.png"> Photo/Video</a>
+                        <a href="#"><img src="icon/idea.png"> Feeling/Activity</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-1.jpeg">
+                        <div>
+                            <p>El Rubio</p>
+                            <span>February 27 2023, 03:47pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p class="post-text">Follow my boss on instagram!<span> @nathanaelervenhays</span> <a href="#"></a> <a href="#">#myboss</a> </p>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 1.5m</div>
+                        <div><img src="icon/chat-dots.svg"> 302k</div>
+                        <div><img src="icon/share.svg"> 10k</div>
+                        <p>Liked by <b>Lewis Hamilton, Robert Jefferson,</b> and<b> 1.5m others</b></p>
+                        <div class="text-gry comment">view all comments</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-1.jpeg"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/f5.png">
+                        <div>
+                            <p>Lewis Hamilton</p>
+                            <span>February 25 2023, 02:27pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p> 
+                ______________________________________________________________________________________
+                </p>
+                <img src="img/feed1.jpeg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 13.1m</div>
+                        <div><img src="icon/chat-dots.svg"> 1.1m</div>
+                        <div><img src="icon/share.svg"></div>
+                            <span><img src="icon/bookmark.svg" class="icon2"></span>
+                        <p>Liked by <b>Alvin Prasetya, Sebastian Vettel,</b> and<b> 13.1m others</b></p>
+                        <p class="post-text"><b>Lewis Hamilton </b>I deserved the championship. Anyway, congrats to @MaxVerstappen1!<a href="#"> #throwback #robbed</a></p>
+                        <div class="text-gry comment">view all comments</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/f5.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p5.png">
+                        <div>
+                            <p>Formula 1</p>
+                            <span>February 24 2023, 05.32pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p> 
+                ______________________________________________________________________________________
+                </p>
+                <img src="img/feed8.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 194m</div>
+                        <div><img src="icon/chat-dots.svg"> 58m</div>
+                        <div><img src="icon/share.svg"></div>
+                            <span><img src="icon/bookmark.svg" class="icon2"></span>
+                        <p>Liked by <b>Alfonsila Satrio, Mick Schumacher,</b> and<b> 194m others</b></p>
+                        <p class="post-text"><b>Formula 1 </b>Thank you the greatest of all time! @NikitaMazepin <a href="#">#GOAT</a></p>
+                        <div class="text-gry comment">view all comments</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p5.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/911.jpg">
+                        <div>
+                            <p>Alfonsila Satrio</p>
+                            <span>February 22 2023, 10.17am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p> 
+                ______________________________________________________________________________________
+                </p>
+                <img src="img/vwricer.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 19.5k</div>
+                        <div><img src="icon/chat-dots.svg"> 327</div>
+                        <div><img src="icon/share.svg"></div>
+                            <span><img src="icon/bookmark.svg" class="icon2"></span>
+                        <p>Liked by <b>MazdaOfficial, Nathanael Ervenhays,</b> and<b> 19.5k others</b></p>
+                        <p class="post-text"><b>Alfonsila Satrio </b>This is how you modify a miata! <a href="#">#hugemiata #stututu</a></p>
+                        <div class="text-gry comment">view all comments</div> 
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/911.jpg"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+    
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/awan.jpg">
+                        <div>
+                            <p>Awan Jefferson</p>
+                            <span>February 20 2023, 06.33pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p> 
+                ______________________________________________________________________________________
+                </p>
+                <img src="img/Tokyo_Japan.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 10.2k</div>
+                        <div><img src="icon/chat-dots.svg"> 457</div>
+                        <div><img src="icon/share.svg"></div>
+                            <span><img src="icon/bookmark.svg" class="icon2"></span>
+                        <p>Liked by <b>Nathanael Ervenhays, MazdaOfficial,</b> and<b> 10.2k others</b></p>
+                        <p class="post-text"><b>Gunawan Jefferson </b>Drifting through tokyo <a href="#">#tokyo #drift #brapbrap</a></p>
+                        <div class="text-gry comment">view all comments</div> 
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/awan.jpg"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/cr7.jpg">
+                        <div>
+                            <p>Cristiano Ronaldo</p>
+                            <span>February 17 2023, 05:25pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p> 
+                ______________________________________________________________________________________
+                </p>
+                <img src="img/feed5.jpeg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 77.3m</div>
+                        <div><img src="icon/chat-dots.svg"> 1.9m</div>
+                        <div><img src="icon/share.svg"></div>
+                            <span><img src="icon/bookmark.svg" class="icon2"></span>
+                        <p>Liked by <b>Lionel Messi, Charles Leclerc</b> and<b> 77.3m others</b></p>
+                        <p class="post-text"><b>Cristiano Ronaldo </b>Just me and my bugatti <a href="#">##siuuuu</a></p>
+                        <div class="text-gry comment">view all comments</div> 
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/cr7.jpg"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p3.png">
+                        <div>
+                            <p>Garasi Drift</p>
+                            <span>February 14 2023, 04:00pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p> 
+                ______________________________________________________________________________________
+                </p>
+                <img src="img/feed7.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 745.5k</div>
+                        <div><img src="icon/chat-dots.svg"> 213k</div>
+                        <div><img src="icon/share.svg"></div>
+                            <span><img src="icon/bookmark.svg" class="icon2"></span>
+                        <p>Liked by <b>Nismo, Alfonsila Satrio</b> and<b> 745.5k others</b></p>
+                        <p class="post-text"><b>Garasi Drift </b>Take a look at @Ervenxd 's Nissan Skyline GTR R34 Nismo! <a href="#">#suprakiller</a></p>
+                        <div class="text-gry comment">view all comments</div> 
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p3.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+
+
+
+            <button type="button" class="load-more-btn">Load More</button>
+        </div>
+         <!------------right-sidebar--------------- -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>5</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Bahrain GP 2023</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Bahrain International Circutit</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>24</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Erven's Birthday Party</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Ambarukmo Plaza</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="img/adsmerc.jpg" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/r34.jpg">
+                </div>
+                <p>Robert Jefferson</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/s4.jpg">
+                </div>
+                <p>Franklin Clinton</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/f1.png">
+                </div>
+                <p>Sebastian Vettel</p>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+<script src="homefix2.js"></script>
+</body>
+</html>
